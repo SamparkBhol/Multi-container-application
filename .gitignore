@@ -1,2 +1,15 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log
 .env
+
+# Terraform (Files to IGNORE)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# OS Junk
+.DS_Store
+Thumbs.db
